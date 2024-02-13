@@ -44,14 +44,47 @@ header {
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 10px;
+    padding-top: 30px;
+
 }
 
 .card {
-    width: 250px;
-    height: 400px;
-    background-color: red;
+    width: 380px;
+    height: 600px;
     position: relative;
+    margin-bottom: 100px;
+    margin-right: 20px;
+}
+
+.heart {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    position: absolute;
+    top: 5px;
+    right: 0px;
+    background-color: white;
+    text-align: center;
+    line-height: 40px;
+}
+
+.prices {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+}
+
+.newprice {
+    color:red;
+    padding-right: 5px;
+}
+
+.oldprice {
+    text-decoration: line-through;
+}
+
+.description-product {
+    padding-top: 10px;
 }
 
 /* utility */
@@ -69,26 +102,6 @@ header {
     padding: 5px;
 }
 
-.heart {
-    width: 40px;
-    height: 40px;
-    font-size: 20px;
-    position: absolute;
-    top: 5px;
-    right: 0px;
-    background-color: white;
-    text-align: center;
-    line-height: 40px;
-}
-
-
-
-
-
-
-
-
-
 
 /* flex utlity */
 
@@ -100,3 +113,10 @@ header {
     justify-content: space-between;
 }
 
+.wrap {
+    flex-wrap: wrap;
+}
+
+.align-content {
+    align-items: center;
+}
