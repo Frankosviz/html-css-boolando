@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
 }
 
 :root {
@@ -51,6 +52,7 @@ header {
     text-decoration: none;
     padding-left: 10px;
 }
+
 
 /* main */
 
@@ -130,19 +132,34 @@ footer {
    padding-bottom: 20px;
 }
 
-/* utility */
+/* hover */
 
-.discount-red {
-    background-color: red;
-    color: white;
-    width: 10px;
-    padding: 5px;
+.secondary-img {
+    display: none;
 }
 
-.sostenibility-green {
-    background-color: green;
-    color: white;
-    padding: 5px;
+.card:hover .first-img {
+    display: none;
+}
+
+.card:hover .secondary-img {
+    display: block;
+}
+
+.heart:hover {
+    color: red;
+}
+
+.footer-links span> a:hover {
+    color: var(--color-header-nav);
+}
+
+.fonts > a:hover{
+    color: var(--color-footer);
+}
+
+.gender > a:hover {
+    color: var(--color-footer);
 }
 
 /* flex utlity */
@@ -161,4 +178,19 @@ footer {
 
 .align-content {
     align-items: center;
+}
+
+/* utility */
+
+.discount-red {
+    background-color: red;
+    color: white;
+    width: 10px;
+    padding: 5px;
+}
+
+.sostenibility-green {
+    background-color: green;
+    color: white;
+    padding: 5px;
 }
