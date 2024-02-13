@@ -1,0 +1,18 @@
+/* reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+	--color-header-nav: #ff6900;
+	--color-background: #ffffff;
+	--color-footer: #1a1a1a;
+}
+
+header {
+    background-color: #ff6900;
+    height: 50px;
+}
