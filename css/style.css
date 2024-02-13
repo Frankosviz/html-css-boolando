@@ -12,7 +12,91 @@
 	--color-footer: #1a1a1a;
 }
 
+/* Header */
+
 header {
     background-color: #ff6900;
-    height: 50px;
 }
+
+.nav-bar {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #ff6900;
+}
+
+.gender, .fonts, .logo {
+    line-height: 80px;
+}
+
+.gender > a {
+    color: white;
+    text-decoration: none;
+    padding-right: 10px;
+}
+
+.fonts > a{
+    color: white;
+    text-decoration: none;
+}
+
+/* main */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.card {
+    width: 250px;
+    height: 400px;
+    background-color: red;
+    position: relative;
+}
+
+/* utility */
+
+.discount-red {
+    background-color: red;
+    color: white;
+    width: 10px;
+    padding: 5px;
+}
+
+.sostenibility-green {
+    background-color: green;
+    color: white;
+    padding: 5px;
+}
+
+.heart {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    position: absolute;
+    top: 5px;
+    right: 0px;
+    background-color: white;
+    text-align: center;
+    line-height: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+/* flex utlity */
+
+.flex {
+    display: flex;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
